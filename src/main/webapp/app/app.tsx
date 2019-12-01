@@ -1,22 +1,21 @@
 import 'react-toastify/dist/ReactToastify.css';
 import './app.scss';
+import { Input } from 'reactstrap';
 
 import React from 'react';
 import { connect } from 'react-redux';
-import { Card } from 'reactstrap';
 import { HashRouter as Router } from 'react-router-dom';
-import { ToastContainer, ToastPosition, toast } from 'react-toastify';
+import { toast, ToastContainer, ToastPosition } from 'react-toastify';
 
 import { IRootState } from 'app/shared/reducers';
 import { getSession } from 'app/shared/reducers/authentication';
 import { getProfile } from 'app/shared/reducers/application-profile';
 import { setLocale } from 'app/shared/reducers/locale';
 import Header from 'app/shared/layout/header/header';
-import Footer from 'app/shared/layout/footer/footer';
 import { hasAnyAuthority } from 'app/shared/auth/private-route';
 import ErrorBoundary from 'app/shared/error/error-boundary';
 import { AUTHORITIES } from 'app/config/constants';
-import AppRoutes from 'app/routes';
+import Card from 'app/modules/card';
 
 export interface IAppProps extends StateProps, DispatchProps {}
 
@@ -30,8 +29,9 @@ export class App extends React.Component<IAppProps> {
     const paddingTop = '60px';
     return (
       <Router>
-        <h1>1111111</h1>
         <div className="app-container" style={{ paddingTop }}>
+          <h1>dasdsadsadas</h1>
+          <Card content={<input />} />
           <ToastContainer
             position={toast.POSITION.TOP_LEFT as ToastPosition}
             className="toastify-container"
@@ -48,14 +48,6 @@ export class App extends React.Component<IAppProps> {
               isSwaggerEnabled={this.props.isSwaggerEnabled}
             />
           </ErrorBoundary>
-          <div className="container-fluid view-container" id="app-view-container">
-            <Card className="jh-card">
-              <ErrorBoundary>
-                <AppRoutes />
-              </ErrorBoundary>
-            </Card>
-            <Footer />
-          </div>
         </div>
       </Router>
     );

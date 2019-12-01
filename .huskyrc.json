@@ -1,0 +1,7 @@
+{
+  "hooks": {
+    "commit-msg": "commitlint -e $GIT_PARAMS",
+    "pre-commit": "tsc --noEmit && lint-staged",
+    "pre-push": "yarn run test"
+  }
+}
