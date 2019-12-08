@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/alanhg/jhipster-starter/compare/v0.0.2...v0.0.3) (2019-12-08)
+
+### Features
+
+- add formatNumber utils ([938e0f7](https://github.com/alanhg/jhipster-starter/commit/938e0f79875235037d6de24a9366724640d4cc81))
+
 ### [0.0.2](https://github.com/alanhg/jhipster-starter/compare/v0.0.1...v0.0.2) (2019-12-08)
 
 ### CI
