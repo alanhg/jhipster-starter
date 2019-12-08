@@ -1,13 +1,13 @@
 {
   "name": "jhipster",
-  "version": "0.0.7",
+  "version": "0.0.1",
   "private": true,
   "description": "Description for jhipster",
   "license": "UNLICENSED",
   "scripts": {
     "cleanup": "rimraf target/www",
     "commitmsg": "commitlint -e $GIT_PARAMS",
-    "ct": "git-cz",
+    "commit": "git-cz",
     "jest": "jest --coverage --logHeapUsage --maxWorkers=2 --config src/test/javascript/jest.conf.js",
     "jest:update": "npm run jest -- --updateSnapshot",
     "lint": "tslint --project tsconfig.json -e 'node_modules/**'",
