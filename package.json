@@ -1,6 +1,6 @@
 {
   "name": "jhipster",
-  "version": "0.0.2",
+  "version": "0.0.7",
   "private": true,
   "description": "Description for jhipster",
   "license": "UNLICENSED",
@@ -161,11 +161,5 @@
   "jestSonar": {
     "reportPath": "target/test-results/jest",
     "reportFile": "TESTS-results-sonar.xml"
-  },
-  "standard-version": {
-    "skip": {
-      "commit": true,
-      "tag": true
-    }
   }
 }
