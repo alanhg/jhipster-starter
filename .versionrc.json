@@ -28,7 +28,7 @@
     {
       "type": "docs",
       "section": "Docs",
-      "hidden": false
+      "hidden": true
     },
     {
       "type": "style",
@@ -53,12 +53,13 @@
     {
       "type": "build",
       "section": "Build System",
-      "hidden": false
+      "hidden": true
     },
     {
       "type": "ci",
       "section": "CI",
-      "hidden": false
+      "hidden": true
     }
-  ]
+  ],
+  "issueUrlFormat": "http://1991421.cn/issues/{{id}}"
 }
