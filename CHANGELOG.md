@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.4](https://github.com/alanhg/jhipster-starter/compare/v0.0.3...v0.0.4) (2019-12-10)
+
+### Build System
+
+- build optimize ([1d13cda](https://github.com/alanhg/jhipster-starter/commit/1d13cdafa993db2d49f5e4a29c89a96585f7e0ed)), closes [#111](http://1991421.cn/issues/111)
+
 ### [0.0.3](https://github.com/alanhg/jhipster-starter/compare/v0.0.2...v0.0.3) (2019-12-08)
 
 ### Features
