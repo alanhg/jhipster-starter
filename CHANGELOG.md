@@ -2,6 +2,20 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.8](https://github.com/alanhg/jhipster-starter/compare/v0.0.6...v0.0.8) (2019-12-15)
+
+### Features
+
+- add getURLQueryStringObj util func ([f0c524c](https://github.com/alanhg/jhipster-starter/commit/f0c524c00dffdf493ef6ee6237f6952b80b0a7f1))
+
+### Performance Improvements
+
+- remove js lint ([3dcbc74](https://github.com/alanhg/jhipster-starter/commit/3dcbc7431fa321501ef944a679e8c7fbd0baac54))
+
+### Others
+
+- **release:** 0.0.7 ([dd92fb2](https://github.com/alanhg/jhipster-starter/commit/dd92fb2b2d00f4a1013dbd0b38fbc3be6e91d2ae))
+
 ### [0.0.7](https://github.com/alanhg/jhipster-starter/compare/v0.0.6...v0.0.7) (2019-12-15)
 
 ### Performance Improvements
