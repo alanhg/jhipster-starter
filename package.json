@@ -51,6 +51,7 @@
     "loaders.css": "0.1.2",
     "lodash": "4.17.10",
     "moment": "2.22.2",
+    "query-string": "^6.9.0",
     "react": "16.5.0",
     "react-addons-css-transition-group": "16.0.0-alpha.3",
     "react-addons-transition-group": "16.0.0-alpha.3",
