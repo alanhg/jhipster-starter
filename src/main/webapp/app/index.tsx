@@ -29,13 +29,16 @@ const render = Component =>
   ReactDOM.render(
     <ErrorBoundary>
       <AppContainer>
-        <Provider store={store}>
-          <div>
-            {/* If this slows down the app in dev disable it and enable when required  */}
-            {devTools}
-            <Component />
-          </div>
-        </Provider>
+        {
+          // @ts-ignore
+          <Provider store={store}>
+            <div>
+              {/* If this slows down the app in dev disable it and enable when required  */}
+              {devTools}
+              <Component />
+            </div>
+          </Provider>
+        }
       </AppContainer>
     </ErrorBoundary>,
     rootEl

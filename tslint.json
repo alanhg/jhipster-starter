@@ -1,6 +1,13 @@
 {
-  "extends": ["tslint:latest", "tslint-eslint-rules", "tslint-react", "tslint-config-prettier"],
+  "extends": ["tslint:latest", "tslint-react", "tslint-eslint-rules", "tslint-config-prettier"],
+  "linterOptions": {
+    "exclude": ["lib/**"]
+  },
+  "jsRules": {
+    "object-literal-sort-keys": false
+  },
   "rules": {
+    "jsx-no-lambda": false,
     "class-name": true,
     "comment-format": [true, "check-space"],
     "eofline": true,
@@ -29,7 +36,7 @@
     "object-literal-sort-keys": false,
     "one-line": [true, "check-open-brace", "check-catch", "check-else", "check-whitespace"],
     "quotemark": [true, "single", "jsx-double", "avoid-escape"],
-    "radix": true,
+    "radix": false,
     "semicolon": [true, "always", "ignore-bound-class-methods"],
     "triple-equals": [true, "allow-null-check"],
     "typedef-whitespace": [
@@ -77,11 +84,11 @@
     "ordered-imports": [false],
     "curly": [true, "ignore-same-line"],
     "switch-default": true,
-    "cyclomatic-complexity": [true, 40],
+    "cyclomatic-complexity": [true, 70],
     "no-invalid-this": [true],
     "no-magic-numbers": false,
     "ban-types": [true, ["Object", "Use {} instead."]],
-    "no-submodule-imports": [true, "app", "uuid/v4", "@fortawesome", "lodash", "react-toastify"],
+    "no-submodule-imports": [true, "app", "uuid/v4", "@fortawesome", "lodash", "redux-saga/effects", "antd", "@lenovo"],
     "ter-arrow-body-style": [true],
     "ter-no-irregular-whitespace": [true],
     "ter-no-sparse-arrays": [true],
@@ -99,7 +106,9 @@
     "space-in-parens": [true, "never"],
     "jsx-boolean-value": [true, "never"],
     "jsx-no-multiline-js": false,
-    "jsx-alignment": false
+    "jsx-alignment": false,
+    "jsx-space-before-trailing-slash": true,
+    "interface-name": false
   },
   "rulesDirectory": []
 }
