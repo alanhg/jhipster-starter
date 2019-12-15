@@ -2,6 +2,12 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.7](https://github.com/alanhg/jhipster-starter/compare/v0.0.6...v0.0.7) (2019-12-15)
+
+### Performance Improvements
+
+- remove js lint ([3dcbc74](https://github.com/alanhg/jhipster-starter/commit/3dcbc7431fa321501ef944a679e8c7fbd0baac54))
+
 ### [0.0.6](https://github.com/alanhg/jhipster-starter/compare/v0.0.5...v0.0.6) (2019-12-15)
 
 ### [0.0.5](https://github.com/alanhg/jhipster-starter/compare/v0.0.4...v0.0.5) (2019-12-10)
