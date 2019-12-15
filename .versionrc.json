@@ -21,11 +21,6 @@
       "hidden": false
     },
     {
-      "type": "improvement",
-      "section": "Feature Improvements",
-      "hidden": false
-    },
-    {
       "type": "docs",
       "section": "Docs",
       "hidden": true
