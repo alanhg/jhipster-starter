@@ -1,3 +1,5 @@
+import qs from 'query-string';
+
 export const formatNumber = val => (val ? val.toFixed(2) : '');
 
-const name = 'string';
+export const getURLQueryStringObj = () => qs.parse(window.location.hash.substring(window.location.hash.lastIndexOf('?')));
