@@ -108,7 +108,8 @@
     "jsx-no-multiline-js": false,
     "jsx-alignment": false,
     "jsx-space-before-trailing-slash": true,
-    "interface-name": false
+    "interface-name": false,
+    "binary-expression-operand-order": true
   },
   "rulesDirectory": []
 }
