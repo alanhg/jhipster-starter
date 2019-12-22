@@ -22,7 +22,7 @@ export const PasswordStrengthBar = ({ password }: IPasswordStrengthBarProps) => 
 
     const passedMatches = Object.values(flags).filter((isMatchedFlag: boolean) => !!isMatchedFlag).length;
 
-    force += 2 * p.length + (p.length >= 10 ? 1 : 0);
+    force += p.length * 2 + (p.length >= 10 ? 1 : 0);
     force += passedMatches * 10;
 
     // penalty (short password)
