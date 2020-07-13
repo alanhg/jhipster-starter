@@ -126,7 +126,7 @@
     "sinon": "6.1.5",
     "source-map-loader": "0.2.4",
     "sourcemap-istanbul-instrumenter-loader": "0.2.0",
-    "standard-version": "^7.0.1",
+    "standard-version": "^8.0.1",
     "stripcomment-loader": "0.1.0",
     "style-loader": "0.22.1",
     "swagger-ui": "2.2.10",
